@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+
+
+.grid {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 2rem 3rem;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+
+
+
+
+}
+
+
+
+
+.title1 {
+    font-size: 1.66rem;
+    line-height: 50px;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(179, 62%, 43%)
+}
+
+.title2 {
+    font-size: 1.30rem;
+    line-height: 60px;
+    font-weight: 700 px;
+    font-style: normal;
+    color: hsl(71, 73%, 54%);
+}
+
+.title4 {
+    line-height: 50px;
+}
+
+
+.parag1 {
+    color: hsl(204, 10%, 80%);
+}
+
+
+.cardss {
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin: 1.66rem;
+    color: white;
+}
+
+#subscrib {
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: 0;
+    margin-top: 28px;
+    width: 230px;
+    height: 40px;
+    border-radius: 7px;
+    box-shadow: 0px 10px 24px hsla(240, 1%, 19%, 0.377);
+}
+
+.cardss2 {
+    font-weight: 200;
+    font-style: normal;
+    margin: 1.66rem;
+
+}
+
+.cardss2 .title4 {
+    color: white;
+    font-size: 20px;
+}
+
+.cardss2 li {
+    color: whitesmoke;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.cardss2 ul {
+    list-style: none;
+}
+
+.stp1 {
+    padding: 2rem;
+    background-color: white;
+
+}
+
+
+
+
+.cardss {
+    margin: 0;
+    padding: 2rem;
+    background-color: hsl(179, 63%, 44%);
+
+
+
+}
+
+.title3 {
+
+    margin-top: 19px;
+
+}
+
+
+.cardss h1 {
+    margin-top: 19px;
+    font-size: 34px;
+
+}
+
+
+span {
+    font-size: 30px;
+    margin-right: 5px;
+    line-height: 55px;
+    color: white;
+
+}
+
+.p1 {
+    color: rgb(238, 235, 235);
+}
+
+
+.cardss .parag2 {
+    color: white;
+    margin-left: 80px;
+
+
+
+}
+
+.cardss2 {
+    margin: 0;
+    padding: 2rem;
+    background-color: hsl(179, 58%, 49%);
+
+
+
+}
+
+
+
+.grid {
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 230px 300px;
+
+
+}
+
+.stp1 {
+    padding: 54px;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.cardss {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.cardss2 {
+    padding: 60px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: hsl(204, 43%, 93%);
+    }
+
+    .grid {
+        max-width: 240px;
+        padding: 0px;
+    }
+
+
+}
